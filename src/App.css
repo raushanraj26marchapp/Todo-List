@@ -1,51 +1,34 @@
 *{
-  margin: 0;
-  padding: 2px;
-  margin: 2px;
-  background-color: rgb(195, 255, 205);
-  
-}
-.container{
-box-sizing: border-box;
-display: flex;
-justify-content: center;
-align-items: center;
+  /* max-width: 100vw; */
+  list-style: none;
 }
 h1{
-  color: brown;
-  position: static;
-}
-.mainf{
-display: grid;
-}
-.todo{
-  list-style: none;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  color: azure;
 }
-#input{
-  background-color: beige;
-  color: black
+.input{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 #add{
-  background-color: rgb(61, 146, 61);
-  color: blanchedalmond;
-}
-#del{
+  display: grid;
+  justify-content: center;
+  align-items: center;
   background-color: blue;
-  color: bisque;
-}
-#del:hover{
-  background-color: red;
-}
-ol{
-  color: rgb(209, 134, 21);
+  color: azure;
+  border-radius: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#delb{
+  background-color: blue;
+  color: azure;
   }
-  to {
-    transform: rotate(360deg);
-  }
+#delb:hover{
+  background-color: red;
+  color: azure;
 }
